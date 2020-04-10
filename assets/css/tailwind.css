@@ -3,3 +3,14 @@
 @import 'tailwindcss/components';
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
+
+@font-face {
+  font-family: 'ojikunFont';
+  src: url('../font/PathwayGothicOne-Regular.ttf') format("truetype");
+}
+
+body {
+  font-family: 'ojikunFont';
+  background-color: #151515;
+  color: white;
+}
