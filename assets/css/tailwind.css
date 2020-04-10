@@ -10,7 +10,8 @@
 }
 
 body {
+  @apply tracking-wider;
   font-family: 'ojikunFont';
   background-color: #151515;
-  color: white;
+  color: #fdfdfd;
 }
