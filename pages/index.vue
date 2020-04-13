@@ -3,16 +3,21 @@
     <section class="header">
       <default-header />
     </section>
+    <section class="me">
+      <me />
+    </section>
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
 import DefaultHeader from '~/layouts/Header.vue'
+import Me from '~/components/O-MeSection.vue'
 
 export default Vue.extend({
   components: {
-    DefaultHeader
+    DefaultHeader,
+    Me
   }
 })
 </script>
