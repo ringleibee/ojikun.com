@@ -20,7 +20,7 @@
     <transition appear name="delay-appear-title">
       <div class="title-section flex flex-col">
         <h1 class="title-section-service">Servicecs</h1>
-        <h2 class="title-section-desc">create and support your web product.</h2>
+        <h2 class="title-section-desc">Create and support your web product.</h2>
       </div>
     </transition>
   </div>
@@ -45,8 +45,8 @@ export default {
 }
 
 .container {
-  margin: 100px;
-  padding: 50px 0 100px 50px;
+  margin: 100px 100px 30px 100px;
+  padding: 50px 0 0 50px;
 }
 
 .title-section {
@@ -56,7 +56,7 @@ export default {
 .title-section-service {
   color: #101010;
   font-size: 180px;
-  padding: 120px 50px 50px 50px;
+  padding: 120px 50px 0 50px;
 }
 
 .title-section-desc {

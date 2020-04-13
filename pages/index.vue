@@ -6,6 +6,9 @@
     <section class="me">
       <me />
     </section>
+    <section class="services">
+      <services />
+    </section>
   </div>
 </template>
 
@@ -13,11 +16,12 @@
 import Vue from 'vue'
 import DefaultHeader from '~/layouts/Header.vue'
 import Me from '~/components/O-MeSection.vue'
-
+import Services from '~/components/O-ServicesSection.vue'
 export default Vue.extend({
   components: {
     DefaultHeader,
-    Me
+    Me,
+    Services
   }
 })
 </script>
