@@ -38,14 +38,6 @@
                 <nuxt-link
                 to="/"
                 >
-                  Projects
-                </nuxt-link>
-              </li>
-
-              <li class="menu-link">
-                <nuxt-link
-                to="/"
-                >
                   Skills
                 </nuxt-link>
               </li>
@@ -56,6 +48,12 @@
                 >
                   Contact
                 </nuxt-link>
+              </li>
+
+              <li class="menu-link">
+                <a href="#">
+                  Blog
+                </a>
               </li>
             </ul>
           </div>
